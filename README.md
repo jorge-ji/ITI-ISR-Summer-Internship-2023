@@ -18,7 +18,8 @@ python build_tower.py <mode> (1 or 2) <config1> <config2> <config3> <config4> ..
   - block 2 start position
   - block 2 target position
   - block 3 start position
-  - block 3 target position  
+  - block 3 target position
+
 Example:
 ```
 python build_tower.py 1 config1 config2 config3 config4
