@@ -6,7 +6,7 @@ Uses ROS Kortex and OpenPose.
 
 To run the project, open a terminal and source the setup.bash in the catkin workspace where ROS Kortex is intalled. Run the script with the following command:
 ```
-python build_tower.py *mode* (1 or 2) <config1> <config2> <config3> <config4> ... (can be any quantity)
+python build_tower.py <mode> (1 or 2) <config1> <config2> <config3> <config4> ... (can be any quantity)
 ```
 - mode 1 is for condition 1: first 2 configurations are done with a robot that performs gaze actions, in the others, the robot lacks awareness.
 - mode 2 is for condition 2: first 2 configurations are done with a robot that lacks awareness, in the others, the robot performs gaze actions.
@@ -19,8 +19,8 @@ python build_tower.py *mode* (1 or 2) <config1> <config2> <config3> <config4> ..
   - block 2 target position
   - block 3 start position
   - block 3 target position
+Example:
 ```
-#example
 python build_tower.py 1 config1 config2 config3 config4
 ```
 
