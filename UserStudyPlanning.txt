@@ -1,0 +1,44 @@
+OPTION 1 (Future Work)
+RQ: Can the responsive gaze of a robotic arm enhance perceptions of teamwork in a collaborative task?
+
+Condition 1 - “Robotic arm with gaze responsiveness”: In this condition, the robot detects the gaze behaviors of its human teammates and responds accordingly.
+Detects a human is looking at the robot itself -> The robot gazes back at the human (mutual gaze)
+Detects a human is looking at the tower -> The robot gazes at the tower (joint attention)
+Condition 2 - “Robotic arm without gaze responsiveness”: In this condition, the robot does not detect any gaze of the human teammates.
+
+
+—-------------------------------------------------------------------------------------------------------------------------
+OPTION 2 (Option Chosen)
+
+RQ: In a collaborative task, what is the impact of a robotic arm conveying awareness and attention on the perceptions of teamwork?
+
+H1: A robot that performs attentive behaviors will improve human’s perceptions of teamwork compared to a robot that does not perform attentive behaviors.
+
+H2: The performance of teams in which the robot performs attentive behaviors will be similar to the teams in which the robot does not perform attentive behaviors.
+
+What are the independent variables?
+Attentiveness/awareness of the robot (manipulated in within-subjects design: each subject performs both conditions)
+
+Condition 1 - “Attentive/aware robot”: In this condition, the robot performs gaze behaviors to convey attention/awareness of what others are doing.
+The robot gazes at each human when it is their turn to play (ideally before they actually start doing their action);
+The robot gazes at the tower when each human is currently performing his action.
+
+Condition 2 - “Non-attentive robot”: The robot does not employ any gaze behavior and does not demonstrate any attention/awareness when it’s the turn of human teammates.
+
+What are the dependent measures?
+Completion time for the whole puzzle
+Time took by each player for each piece
+Gaze of each player
+Fluency
+Cohesion
+Group trust
+Belonging
+
+Description of the setup and the robot’s behavior
+Round table
+Triadic interaction between two humans and one robotic arm
+Fixed positions for everyone
+Fixed positions for the blocks (in the case of the robot, the position of the blocks is always the same)
+Fixed position for the tower
+The robot uses one external camera to compute when each human is (or is not) performing an action [OpenPose]
+There are three tower configuration (or puzzle goals)
